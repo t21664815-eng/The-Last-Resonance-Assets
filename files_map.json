@@ -1,23 +1,15 @@
 {
-  "version": "v0.0.1-alpha",
-  "assets": [
+  "version": "0.0.1",
+  "files": [
     {
-      "id": "gemma_core",
-      "name": "Gemma-2b Core (AI Brains)",
+      "name": "gemma_brains",
       "url": "https://github.com",
-      "target_path": "models/gemma-2-2b-it-Q4_K_M.gguf",
-      "is_zip": false,
-      "required": true
+      "path": "models/gemma-2-2b-it-Q4_K_M.gguf"
     },
     {
-      "id": "llama_server",
-      "name": "Llama Server (Bridge)",
+      "name": "llama_bridge",
       "url": "https://github.com",
-      "target_path": "llama.cpp/",
-      "is_zip": true,
-      "required": true
+      "path": "llama.cpp/bridge.zip"
     }
-  ],
-  "eula_version": "1.0",
-  "min_ram_mb": 8192
+  ]
 }
